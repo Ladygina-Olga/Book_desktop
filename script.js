@@ -3361,9 +3361,9 @@ $(window).ready(function() {
   // Автоматический выбор масштаба
     let scaleFactor;
     if (window.innerWidth <= 1200) { // планшеты и маленькие десктопы
-        scaleFactor = 1; // под планшет
+        scaleFactor = 0.8; // под планшет
     } else {
-        scaleFactor = 1.3; // десктоп
+        scaleFactor = 1; // десктоп
     }
     
     const pageHeight = 600;
